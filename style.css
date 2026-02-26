@@ -137,6 +137,22 @@ ul, ol {
   padding-block: 96px 80px;
 }
 
+.hero-body {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.hero-avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 3px solid var(--color-border);
+}
+
 .hero-eyebrow {
   font-size: 0.875rem;
   color: var(--color-text-muted);
@@ -155,7 +171,6 @@ ul, ol {
   font-size: 1.125rem;
   color: var(--color-text-muted);
   font-weight: 400;
-  margin-bottom: 24px;
 }
 
 .hero-meta {
