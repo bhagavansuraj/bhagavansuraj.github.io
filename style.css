@@ -155,7 +155,7 @@ ul, ol {
   font-size: 1.125rem;
   color: var(--color-text-muted);
   font-weight: 400;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .hero-meta {
@@ -165,6 +165,16 @@ ul, ol {
   gap: 8px;
   font-size: 0.9rem;
   color: var(--color-text-muted);
+  margin-bottom: 28px;
+}
+
+.hero-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--color-border);
+  display: block;
 }
 
 .hero-meta .sep {
@@ -176,17 +186,7 @@ ul, ol {
    ============================================================ */
 .about-body {
   display: flex;
-  gap: 32px;
-  align-items: flex-start;
-}
-
-.about-avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex-shrink: 0;
-  border: 3px solid var(--color-border);
+  flex-direction: column;
 }
 
 .about-text {
@@ -470,12 +470,6 @@ ul, ol {
    RESPONSIVE
    ============================================================ */
 @media (max-width: 600px) {
-  .about-body {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
   .nav-links {
     gap: 14px;
   }
