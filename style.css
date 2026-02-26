@@ -134,7 +134,7 @@ ul, ol {
    HERO
    ============================================================ */
 .hero {
-  padding-block: 96px 80px;
+  padding-block: 96px 32px;
 }
 
 .hero-eyebrow {
